@@ -12,9 +12,11 @@
     "start": "bun run index.ts",
     "dev": "bun --watch index.ts",
     "build": "bun build index.ts",
-    "frontend": "bun build src/index.ts --outfile=dist/bundle.js --watch"
+    "frontend": "bun build src/index.tsx --outfile=dist/bundle.js --watch"
   },
   "dependencies": {
-    "axios": "^1.6.0"
+    "axios": "^1.6.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   }
 }
